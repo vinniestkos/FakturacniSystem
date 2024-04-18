@@ -1,0 +1,1 @@
+C:\SKOLA\PTA\projekt\EFSQLite-master\EFSQLite\EFSQLite.csproj;x64

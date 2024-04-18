@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EFSQLite.UvodniStranka"
+             Title="UvodniStranka">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Button
+        Grid.Row="0"
+        Text="Evidence vystavených faktur"
+        Style="{StaticResource ButtonStyle}"
+        ImageSource="evidence_vystavenych_faktur.png" />
+
+        <Button
+        Grid.Row="1"
+        Text="Evidence přijatých faktur"
+        Style="{StaticResource ButtonStyle}"
+        ImageSource="evidence_prijatych_faktur.png" />
+
+        <Button
+        Grid.Row="2"
+        Text="Evidence odběratelů"
+        Style="{StaticResource ButtonStyle}"
+        ImageSource="evidence_odberatelu.png" />
+
+        <Button
+        Grid.Row="3"
+        Text="Evidence dodavatelů"
+        Style="{StaticResource ButtonStyle}"
+        ImageSource="evidence_dodavatelu.png" />
+
+        <Button
+        Grid.Row="4"
+        Text="Vystavit fakturu"
+        Style="{StaticResource ButtonStyle}"
+        ImageSource="vystavit_fakturu.png" />
+    </Grid>
+</ContentPage>

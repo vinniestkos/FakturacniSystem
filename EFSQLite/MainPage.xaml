@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EFSQLite.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Entry x:Name="forName"
+                    Placeholder="Jméno" 
+                   FontSize="Title" 
+                   TextColor="Black" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                   WidthRequest="280"
+                   BackgroundColor="White"
+                   PlaceholderColor="SlateGrey"/>
+
+
+            <Entry x:Name="forSurname"
+                Placeholder="Adresa" 
+                   FontSize="Title" 
+                   TextColor="Black" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                   WidthRequest="280"
+                   BackgroundColor="White"
+                   PlaceholderColor="SlateGrey"/>
+
+            <Button Text="Uložit" HorizontalOptions="Center" Clicked="UlozObjednavku"/>
+
+            <ListView x:Name="lst" 
+                      WidthRequest="250"
+                      Header="objednavky" 
+                      HorizontalOptions="Center" 
+                      BackgroundColor="LightGrey"
+                     />
+
+            <Button Text="Smazat" HorizontalOptions="Center" Clicked="Smazat"/>
+            <Button Text="Detail" HorizontalOptions="Center" x:Name="detailBTN" Clicked="Detajly"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
