@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EFSQLite.Records.SupplierRecords"
+             Title="SupplierRecords">
+    <VerticalStackLayout>
+
+        <Label 
+    FontSize="30"
+    Text="{Binding Id}"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+
+        <Label 
+    FontSize="30"
+    Text="{Binding Name}"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+
+        <Label 
+    FontSize="30"
+    Text="{Binding Address}"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+
+        <Label 
+    FontSize="30"
+    Text="{Binding City}"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+
+        <Label 
+    FontSize="30"
+    Text="{Binding PSC}"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+
+        <Label 
+    FontSize="30"
+    Text="{Binding ICO}"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+
+        <Label 
+    FontSize="30"
+    Text="{Binding DIC}"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>
